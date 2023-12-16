@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Agile from './Components/Agile';
+import All from './Components/All';
+import Featured from './Components/Featured';
+import Integer from './Components/Integer';
+import Long from './Components/Long';
+import Myfooter from './Components/Myfooter';
+import Myheader from './Components/Myheader';
+import Sucess from './Components/Sucess';
+import Tean from './Components/Tean';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Tell from './Components/Tell';
+import Mybacktotop from './Components/Mybacktotop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Myheader/>
+    <Mybacktotop/>
+    <Tell/>
+    <Featured/>
+    <Integer/>
+    <All/>
+    <Long/>
+    <Agile/>
+    <Tean/>
+    <Sucess/>
+    <Myfooter/>
+    </>
   );
 }
 

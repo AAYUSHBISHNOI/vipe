@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "light";
+  src: url("./assets/fonts/Gilroy-Light.ttf");
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "medium";
+  src: url("./assets/fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "regular";
+  src: url("./assets/fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "fonexy";
+  src: url("./assets/fonts/KonexyPersonalUse.otf");
+}
+.ff_light{
+  font-family: "light";
+}
+.ff_medium{
+  font-family: "medium";
+}
+.ff_regular{
+  font-family: "regular";
+}
+.ff_konexy{
+  font-family: "fonexy";
+}
+.ff_inter{
+  font-family: "Inter";
+}
+.ff_jost{
+  font-family: "Jost";
+}
+.mylist{
+  list-style-type: none !important;
+}
+.slick-track{
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+.boxShadow_4{
+  box-shadow: 0px 4px 20px 0px rgba(96, 34, 234, 0.20);
+}
+.boxShadow_6:hover{
+  box-shadow: 12.114px 48.457px 60.571px 0px rgba(229, 233, 246, 0.40);
+}
+.boxShadow_5:hover{
+  box-shadow: 0px 20px 60.571px 0px #E5E9F6 !important;
 }
