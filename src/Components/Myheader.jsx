@@ -125,7 +125,7 @@ const Myheader = () => {
                     <div className=' w-[100%] xl:w-[40%] relative pt-8 z-10'>
                     <div className='w-[187px] h-[187px] bg-[#FA00FF] absolute rounded-full blur-[90px] right-[45%] top-[45%] hidden z-[-1] lg:block'></div>
                     <div className=' w-[187px] h-[187px] bg-[#6022ea] absolute rounded-full blur-[90px] right-[55%] top-[70%] hidden z-[-1] sm:block'></div>
-                        <img className=' rounded-[22px] max-xl:w-full 2xl:max-w-[761px]' src={main} alt="" />
+                        <img className=' rounded-[22px] max-xl:w-full 2xl:max-w-[720px]' src={main} alt="" />
                         <div className=' h-[110px] w-[200px] md:h-[130px] lg:h-[119px] mycard md:w-[219px] rounded-[15px] bg-[#0000004d] backdrop-blur-[7px] px-[20px] py-[10px] absolute bottom-[5%] left-[5%] md:left-[5%]'>
                             <img  src={trust} alt="" />
                             <img className=' mt-1 w-[70%] md:mt-2' src={star} alt="" />
