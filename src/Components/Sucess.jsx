@@ -49,7 +49,7 @@ const Sucess = () => {
                     </div>
                 </div>
             </div>
-            <div className=' w-[100%] h-[200px] md:h-[180px] lg:h-[200px] rounded-[17px] bg-gradient-radial py-[10px] md:py-[25px] px-[20px] md:px-[38px] translate-y-0 md:translate-y-12 shadow-5xl mb-6'>
+            <div className=' w-[100%] h-[200px] md:h-[180px] lg:h-[200px] rounded-[17px] bg-gradient-radial py-[10px] md:py-[25px] px-[20px] md:px-[38px] translate-y-0 md:translate-y-16 shadow-5xl mb-6'>
                 <div className=' flex flex-wrap justify-between items-center'>
                     <div>
                         <p className=' font-normal text-[38px] md:text-[48px] text-white ff_konexy'>Have you</p>
