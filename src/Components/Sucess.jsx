@@ -56,7 +56,7 @@ const Sucess = () => {
                         <p className=' font-medium md:font-semibold text-[16px] lg:text-[24px] text-white ff_medium'>read our study about Speed and Performance in <span className=' lg:block'> WordPress?</span></p>
                     </div>
                     <div className=' mt-4 md:mt-0'>
-                        <button className=' px-[38px] py-[15px] text-[16px] font-semibold text-[#6022ea] ff_inter rounded-[100px] bg-white hover:bg-[#6022ea] duration-700 hover:text-white'>Check It Out</button>
+                        <button className=' px-[38px] py-[15px] text-[16px] font-semibold text-[#6022ea] ff_inter rounded-[100px] bg-white hover:bg-[#6022ea] duration-1000 hover:text-white'>Check It Out</button>
                     </div>
                 </div>
             </div>
