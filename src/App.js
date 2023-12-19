@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Tell from './Components/Tell';
 import Mybacktotop from './Components/Mybacktotop';
+import Preloader from './Components/coman/Preloader';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
     <Tean/>
     <Sucess/>
     <Myfooter/>
+    <Preloader/>
     </>
   );
 }

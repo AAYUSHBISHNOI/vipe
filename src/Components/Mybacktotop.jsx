@@ -1,28 +1,37 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import FiArrowUp from "../assets/img/svg arrow.svg";
+import "../App.css";
 
-function Mybacktotop() {
-    const [backTop, setBackTop] = React.useState(false);
-    const moveToTop = () => {
-      document.documentElement.scrollTop = 0;
+const Mybacktotop = () => {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop);
+    return function cleanup() {
+      window.removeEventListener("scroll", checkScrollTop);
     };
+  });
 
-    window.addEventListener("scroll", () => {
-      if (document.documentElement.scrollTop > 100) {
-        setBackTop(true);
-      } else {
-        setBackTop(false);
-      }
-    });
+  const checkScrollTop = () => {
+    if (!showScroll && window.pageYOffset > 100) {
+      setShowScroll(true);
+    } else if (showScroll && window.pageYOffset <= 100) {
+      setShowScroll(false);
+    }
+  };
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <div>
-    {backTop ? ( <button id='text'  onClick={moveToTop} className=" fixed  bg-[#6f6f6f] border-[1px] border-[white] p-[7px] bottom-0 end-0 me-4 mb-4  pointer z-10  rounded-3xl animate-bounce">
-      <svg width="20" height="20" fill="black" viewBox="0 0 16 16"><path fillRule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"></path><path fillRule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path></svg>
-      </button>
-    ) : (
-      ""
-    )}
-  </div>
-  )
-}
-
-export default Mybacktotop
+    <>
+      <section>
+        <div className="back_to_top ">
+          <img className=" fixed animate-pulse w-[35px] bottom-[30px] right-[30px] items-center justify-center z-40 cursor-pointer rounded-[50%] decoration-purple-600 bg-[#fa00ff] py-1 px-1" onClick={scrollTop} style={{ height: 35, display: showScroll ? "flex" : "none" }} src={FiArrowUp} alt="img" />
+        </div>
+      </section>
+    </>
+  );
+};
+export default Mybacktotop;

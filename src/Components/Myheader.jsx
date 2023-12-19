@@ -107,7 +107,7 @@ const Myheader = () => {
                 </div>
             </div>
         </nav>
-        <section className=' flex grow pt-[80px] md:pt-[180px] lg:pt-[158px] pb-10 md:pb-[70px] lg:pb-[137px]'>
+        <section className=' flex grow pt-[80px] md:pt-[180px] lg:pt-[138px] pb-10 md:pb-[70px] lg:pb-[137px]'>
             <div className="container mx-auto max-w-[1320px] flex justify-center">
                 <div className=' flex flex-wrap items-center'>
                     <div className='w-[100%] xl:w-[51%]'>
