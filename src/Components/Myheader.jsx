@@ -110,7 +110,7 @@ const Myheader = () => {
         <section className=' flex grow pt-[80px] md:pt-[180px] lg:pt-[158px] pb-10 md:pb-[70px] lg:pb-[150px]'>
             <div className="container mx-auto max-w-[1320px] flex justify-center">
                 <div className=' flex flex-wrap items-center'>
-                    <div className='w-[100%] xl:w-[50%]'>
+                    <div className='w-[100%] xl:w-[51%]'>
                        <div className=' flex gap-3 items-center'>
                         <div className=' h-[162px] sm:h-[100px] md:h-[201px] w-[7px] bg-[#6022EA]'></div>
                         <h1 className=' font-normal text-[39px] md:text-[72px] xl:text-[66px] 2xl:text-[72px] text-white ff_konexy leading-[60px] md:leading-[76px]'>WordPress Development Agency</h1>
