@@ -3,7 +3,7 @@ import { Refresh, Search } from './Mysvg'
 
 const Tell = () => {
   return (
-    <div className=' bg-[#000] opacity-[0.98] px-4'>
+    <div className=' bg-[#000] opacity-[0.98] px-4 mt-[-1%]'>
         <div className=' container mx-auto max-w-[1320px] pt-6 md:pt-[64px] pb-[35px] md:pb-[63px]'>
             <div className=' flex flex-wrap items-center justify-between'>
                 <div className=' w-[100%] md:w-[50%] lg:w-[45%]'>
@@ -14,7 +14,7 @@ const Tell = () => {
                     <div className="max-w-[520px] w-full bg-[#252525] py-5 ps-[33px] pe-[31px] rounded-[80px] flex">
                         <input type="text" placeholder="What do you need assistance with?" className=" bg-transparent outline-0 placeholder:text-[#BDBDBE] ff-gilroy-regular leading-[150%] w-full  text-white opacity-[0.7] pe-[24px]" /><Search />
                     </div>
-                    <div className=' flex gap-[20px] lg:gap-[80px] xl:gap-48 pt-3'>
+                    <div className=' flex gap-[20px] lg:gap-[80px] xl:gap-48 pt-4 pb-2 lg:pb-0 lg:pt-3'>
                         <p className=' font-normal text-[14px] md:text-[16px] text-white ff_medium flex items-center gap-2'><Refresh/>or send us an inquire?	</p>
                         <ul>
                             <li><a href="learn" className=' font-normal text-white text-[14px] md:text-[16px] ff_medium relative after:left-[50%] after:absolute after:bg-[#fff] after:w-0 after:h-[3px] after:bottom-[-5px] hover:after:left-0 after:duration-700 inline hover:after:w-full'>Learn more about...</a></li>

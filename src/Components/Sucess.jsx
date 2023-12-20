@@ -8,7 +8,7 @@ const Sucess = () => {
         <div className="container mx-auto max-w-[1320px] mt-[20px] md:mt-28 lg:mt-44">
             <div className=' flex flex-wrap items-center mb-9 xl:mb-16'>
                 <div className=' w-[100%] xl:w-[40%] flex justify-center xl:justify-between'>
-                    <img src={robot} alt="" />
+                    <img className=' w-[60%] 2xl:w-[80%]' src={robot} alt="" />
                 </div>
                 <div className=' w-[100%] xl:w-[60%] mt-8'>
                    <div className=' text-center xl:text-start'>

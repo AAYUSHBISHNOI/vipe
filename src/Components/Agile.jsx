@@ -6,8 +6,8 @@ const Agile = () => {
     <div className=' px-4'>
         <div className="container mx-auto max-w-[1320px] mb-[30px] md:mb-[40px] lg:mb-[110px]">
             <div className=' flex flex-wrap mt-[20px] md:mt-[67px] items-center'>
-                <div className=' w-[100%] lg:w-[50%]'>
-                    <img className=' w-[90%]' src={men} alt="" />
+                <div className=' w-[100%] lg:w-[50%] flex justify-center xl:justify-start'>
+                    <img className=' w-[100%] 2xl:w-[90%]' src={men} alt="" />
                 </div>
                 <div className=' w-[100%] lg:w-[50%] mt-5'>
                     <h2 className=' text-black font-normal text-[17px] md:text-[28px] lg:text-[36px] xl:text-[48px] ff_konexy leading-normal'><span className=' text-[#6022ea]'>Agile WordPress</span><span className=' lg:block'> Development Project</span> <span className=' lg:block'>management</span></h2>
