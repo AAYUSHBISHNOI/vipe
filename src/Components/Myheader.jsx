@@ -5,6 +5,7 @@ import { Dropdown, Earth, Search, Video } from './Mysvg';
 import main from "../assets/img/hero_img.png";
 import trust from "../assets/img/trust.png";
 import star from "../assets/img/star.png";
+import line from "../assets/img/Line21.png";
 import { Close, Open } from './Mysvg';
 
 const Myheader = () => {
@@ -88,6 +89,7 @@ const Myheader = () => {
                         <ul className=' flex items-center gap-5'>
                             <li><a href="" className='text-white text-[16px] ff_medium font-normal mb-0'>1 888 266-6917 (eu?)</a></li>
                             <button className=' bg-[#6022EA] rounded-[100px] px-[24px] py-[10px] text-white text-[16px] ff_medium font-semibold mb-0 border-transparent hover:border-[#6022ea] hover:border border hover:shadow-5xl duration-700 hover:bg-transparent'>Contact Us</button>
+                            <img src={line} alt="" />
                             <li className="relative inline-block group">
                                 <a href="#" aria-label="WordPresssolutionnav"
                                     className="flex gap-1 leading-6 text-white text-[16px] ff_medium font-normal mb-0"><Earth/>Eng<Dropdown/>
